@@ -12,3 +12,6 @@ sp500["Daily Return"] = sp500["Close"].pct_change()
 (1 + sp500["Daily Return"]).cumprod().plot(title="S&P500 Cumulative Return")
 plt.ylabel("Growth of $1")
 plt.show()
+
+print(sp500.head())
+print(type(sp500))
