@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Download data
-df = yf.download("^GSPC", start="2010-01-01", end="2024-12-31")
+df = yf.download("^GSPC", start="2010-01-01", end="2025-12-31")
 
 # Calculate SMA
 df["SMA50"] = df["Close"].rolling(window=50).mean()
