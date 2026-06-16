@@ -52,3 +52,7 @@ over sufficient time horizons.
 
 ## Tech Stack
 Python, pandas, numpy, matplotlib, yfinance
+
+
+## Test Commit Command
+This part is irrelevant with all of these above project It's just Test
